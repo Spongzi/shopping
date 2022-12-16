@@ -1,0 +1,45 @@
+.classification {
+    position: absolute;
+    z-index: 999;
+    height: 496px;
+    width: 200px;
+    left: 10%;
+    top: 5%;
+    background-color: rgba(239, 239, 239, 0.8);
+    box-shadow: 5px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.data {
+    position: relative;
+    top: 2%;
+    height: 100%;
+}
+
+.item_data {
+    clear: both;
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    height: 8%;
+    color: rgb(100, 100, 100);
+}
+
+.item_data:hover {
+    background-color: white;
+    color: #000;
+}
+
+.item_data p {
+    position: absolute;
+    top: 35%;
+    left: 10px;
+}
+
+.icon_style {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+}
+
+
+

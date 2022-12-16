@@ -1,9 +1,10 @@
-import {configureStore} from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
+import age from "./reducer/age";
 
 const store = configureStore({
-    reducer: {
-        test: ""
-    }
-})
+  reducer: {
+    age: age,
+  },
+});
 
-export default store
+export default store;

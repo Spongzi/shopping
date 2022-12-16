@@ -1,0 +1,42 @@
+.box {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgs {
+    position: relative;
+    width: 100vw;
+    height: 550px;
+    display: flex;
+    transition: all 1s;
+}
+
+.item {
+    width: 100vw;
+    height: 550px;
+}
+
+.item img {
+    width: 100vw;
+    height: 550px;
+}
+
+.select_images {
+    position: absolute;
+    left: 43%;
+    top: 93%;
+    width: 57%;
+    float: left;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #999898;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}

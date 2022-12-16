@@ -1,0 +1,29 @@
+.select {
+    position: relative;
+    height: 74px;
+    width: 100%;
+}
+
+.select img {
+    height: 74px;
+    position: absolute;
+    left: 10%;
+}
+
+.select_tags {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    display: flex;
+    font-size: 16px;
+}
+
+.select_tag {
+    margin: 0 0 0 40px;
+}
+
+.select_tag:hover {
+    color: red;
+    cursor: pointer;
+}
+
