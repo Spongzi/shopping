@@ -40,7 +40,7 @@ function Carousel() {
   return (
     <div className="box">
       <Classification />
-      <ul className="imgs" style={{ marginLeft: `${left}%` }}>
+      <ul className="imgs" style={{ marginLeft: `${left}vw` }}>
         {images.map((img) => {
           return (
             <li className="item" key={img}>

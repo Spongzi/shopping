@@ -12,9 +12,9 @@ function Header() {
   ];
 
   const functionBarItems = [
-    { name: "请登录", path: "/" },
-    { name: "登录", path: "/" },
-    { name: "我的订单", path: "/" },
+    { name: "请登录", path: "/login" },
+    { name: "注册", path: "/register" },
+    { name: "我的订单", path: "/shoppingcar" },
   ];
 
   const moreSelectItems = [
@@ -60,11 +60,13 @@ function Header() {
             );
           })}
           <li className={"car"}>
-            <Icon
-              className={"shopping_car_icon"}
-              iconName={"icon-gouwuchekong"}
-            ></Icon>
-            <div className={"shopping_car"}>购物车(0)</div>
+            <Link to={"/shoppingcar"}>
+              <Icon
+                className={"shopping_car_icon"}
+                iconName={"icon-gouwuchekong"}
+              ></Icon>
+              <div className={"shopping_car"}>购物车(0)</div>
+            </Link>
           </li>
         </ul>
       </div>

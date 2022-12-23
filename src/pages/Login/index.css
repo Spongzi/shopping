@@ -1,0 +1,62 @@
+.box1 {
+    background-color: white;
+    width: 325px;
+    height: 285px;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    position: relative;
+    left: 500px;
+}
+
+.d1 {
+    color: white;
+    position: absolute;
+    right: 100px;
+    font-size: 12px;
+}
+
+.d2 {
+    height: auto;
+    font-family: PingFangSC-Semibold;
+    font-size: 29px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.d3 {
+    color: blue;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 225px;
+}
+
+.d4 {
+    color: blue;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.d5 {
+    color: darkgray;
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+    font-size: 12px;
+}
+
+.d6 {
+    color: dimgray;
+    font-size: 15px;
+    text-align: center;
+}
